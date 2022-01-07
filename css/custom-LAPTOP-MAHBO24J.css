@@ -731,10 +731,7 @@ margin-bottom: 20px;
     .nav-ul li{
         margin-left: 20px;
        }
-       .text h1 {
-           font-size: 40px;
-
-       }
+      
        .text h1, .text h2 {
            font-size: 3rem;
         }
@@ -758,4 +755,34 @@ margin-bottom: 20px;
 
 
 
+}
+
+@media only screen and  (max-width:670px){
+    .wrapper-5{
+        visibility: hidden;
+    }
+    .work{
+        margin: 10px auto;
+    }
+    .text h1, .text h2{
+        font-size: 2rem;
+    }
+    .anshu-bio-data h3{
+        font-size: 1.1rem;
+        text-align: justify;
+
+    }
+    
+    .wrapper-4 .experience h1,.wrapper-4 .education h1,.wrapper-3 h1 ,.workHead,.wrapper-7 h2,.me-head{
+        font-size: 2.1rem;
+    }
+    .card{
+        margin-top: 15px;
+    }
+    .wrapper-3{
+        padding-bottom: 0;
+    }
+    .wrapper-3a{
+        padding-top: 0;
+    }
 }
